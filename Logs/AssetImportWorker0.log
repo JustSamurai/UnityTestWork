@@ -15,7 +15,7 @@ C:/Users/User/Desktop/TestWork
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53975
+60870
 Successfully changed project path to: C:/Users/User/Desktop/TestWork
 C:/Users/User/Desktop/TestWork
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ C:/Users/User/Desktop/TestWork
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8936]  Target information:
+Player connection [8892]  Target information:
 
-Player connection [8936]  * "[IP] 26.70.200.155 [Port] 0 [Flags] 2 [Guid] 4142031428 [EditorId] 4142031428 [Version] 1048832 [Id] WindowsEditor(7,VampusCorp) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8892]  * "[IP] 26.70.200.155 [Port] 0 [Flags] 2 [Guid] 1259412429 [EditorId] 1259412429 [Version] 1048832 [Id] WindowsEditor(7,VampusCorp) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8936]  * "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 4142031428 [EditorId] 4142031428 [Version] 1048832 [Id] WindowsEditor(7,VampusCorp) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8892]  * "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1259412429 [EditorId] 1259412429 [Version] 1048832 [Id] WindowsEditor(7,VampusCorp) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8936] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8936] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8892] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8892] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-Refreshing native plugins compatible for Editor in 12.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
@@ -74,44 +74,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Hub/2022.3.46f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Hub/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity Hub/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity Hub/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010545 seconds.
-- Loaded All Assemblies, in  0.372 seconds
+Registered in 0.011251 seconds.
+- Loaded All Assemblies, in  0.391 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.320 seconds
-Domain Reload Profiling: 689ms
-	BeginReloadAssembly (118ms)
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 728ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
-		LoadAssemblies (115ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (117ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (124ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (131ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (321ms)
+	FinalizeReload (340ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (263ms)
+		SetupLoadedEditorAssemblies (289ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (45ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (152ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,54 +120,54 @@ Domain Reload Profiling: 689ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.643 seconds
+- Loaded All Assemblies, in  0.686 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.606 seconds
-Domain Reload Profiling: 1245ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.661 seconds
+Domain Reload Profiling: 1343ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (400ms)
-		LoadAssemblies (305ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (322ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (152ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (606ms)
+	FinalizeReload (661ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
+		SetupLoadedEditorAssemblies (515ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (354ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3560.
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3560.
 Memory consumption went from 118.0 MB to 117.9 MB.
-Total: 2.570600 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.179500 ms MarkObjects: 2.062000 ms  DeleteObjects: 0.079400 ms)
+Total: 2.917400 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.215300 ms MarkObjects: 2.363600 ms  DeleteObjects: 0.088600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,64 +184,1010 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 16755.095842 seconds.
-  path: Assets/Scripts/RotateCamera.cs
-  artifactKey: Guid(7fa057a40853cdc43901c0cd841d7fe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/RotateCamera.cs using Guid(7fa057a40853cdc43901c0cd841d7fe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '0606d694d2b408ab93747962f120e689') in 0.098931 seconds
+  Time since last request: 639.074836 seconds.
+  path: Assets/Models
+  artifactKey: Guid(dc36b73ffee266f4f971f4e4065ea05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(dc36b73ffee266f4f971f4e4065ea05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'f04844fe9c69da06d6dab4ff7be30ba6') in 0.002476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.808126 seconds.
+  path: Assets/Models/Череп.blend
+  artifactKey: Guid(6ae663ffffda477408251fa19657e4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Череп.blend using Guid(6ae663ffffda477408251fa19657e4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a2409ab7f29b2e24d6dd1770d0b343c3') in 0.208582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Экскалибур.blend
+  artifactKey: Guid(93ea489c9b2163e41abb60dfe93229d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Экскалибур.blend using Guid(93ea489c9b2163e41abb60dfe93229d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '925fc4c354226dec0e9d32de961787d3') in 0.121601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/камень какйото.blend
+  artifactKey: Guid(d55266cb87230674db2f3e41e1b5360f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/камень какйото.blend using Guid(d55266cb87230674db2f3e41e1b5360f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '82229b64a3bed43c911b78c346fdfb9e') in 0.033227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 71.828695 seconds.
+  path: Assets/Materials/New Folder
+  artifactKey: Guid(0aa2603ee24ea734ba80667099a5f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Folder using Guid(0aa2603ee24ea734ba80667099a5f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b2ec2e2926a9ea106b62a3d8051114e2') in 0.000536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.382466 seconds.
+  path: Assets/Materials/Emission.mat
+  artifactKey: Guid(56c2268932159784fb7f1d6b4065efb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Emission.mat using Guid(56c2268932159784fb7f1d6b4065efb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '7e8e3532e718f892746322c52e61518e') in 0.016571 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Scripts/CircleMove.cs
-  artifactKey: Guid(e126a18b59a7d1c4589a3dbb16e6cf96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/CircleMove.cs using Guid(e126a18b59a7d1c4589a3dbb16e6cf96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'e718b4f6779eaf2cdf5279f8770f910b') in 0.010877 seconds
+  Time since last request: 51.664054 seconds.
+  path: Assets/Materials/Emission.mat
+  artifactKey: Guid(56c2268932159784fb7f1d6b4065efb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Emission.mat using Guid(56c2268932159784fb7f1d6b4065efb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'bd717b3fc9360f2105a852dc99dc53ea') in 0.015072 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '367806822b59721407d6860c970b0af6') in 0.011484 seconds
+  Time since last request: 372.295980 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Asphalt_5/Cracked_Asphalt_5.mat
+  artifactKey: Guid(bb39d5ceab859b441844d2f8a1bcb724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Asphalt_5/Cracked_Asphalt_5.mat using Guid(bb39d5ceab859b441844d2f8a1bcb724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5bc6694e43ba85dd985776458694cb69') in 0.273402 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scripts/GeneralStatic.cs
-  artifactKey: Guid(b7faac0ad2e37cf4e876a24a068ae59a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/GeneralStatic.cs using Guid(b7faac0ad2e37cf4e876a24a068ae59a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '8d6be831ae3275746549f81555b79b3f') in 0.012592 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Fur_3/Fur_3.mat
+  artifactKey: Guid(38eb32f23188ff649a7e0da573025e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Fur_3/Fur_3.mat using Guid(38eb32f23188ff649a7e0da573025e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '55a58a1ef2dec6d4142512237bbf2e38') in 0.035595 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Concrete_26/Cracked_Concrete_26.mat
+  artifactKey: Guid(1e16b642109be7040a7f589235223c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Concrete_26/Cracked_Concrete_26.mat using Guid(1e16b642109be7040a7f589235223c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '76dfeaeeb1b07c29efdc747525f35437') in 0.029236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Materials/General.mat
-  artifactKey: Guid(705421dc4c713d84fab3943656082421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/General.mat using Guid(705421dc4c713d84fab3943656082421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '76e0f58b7a2978c305c3fa1d4dde550f') in 0.033707 seconds
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Planks_Wood_16/Planks_Wood_16.mat
+  artifactKey: Guid(a6e2280faa6c7204582cef09a765d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Planks_Wood_16/Planks_Wood_16.mat using Guid(a6e2280faa6c7204582cef09a765d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'da94503aaa6c51f9454d199b915caf43') in 0.029729 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Scripts/MoveTo.cs
-  artifactKey: Guid(38a4523090b30144c80988f155f59359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/MoveTo.cs using Guid(38a4523090b30144c80988f155f59359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '08a3686cca781c46228ee6bf2b3a46fb') in 0.011706 seconds
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4.mat
+  artifactKey: Guid(61fa6249e001710418ca64e1ab42ba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4.mat using Guid(61fa6249e001710418ca64e1ab42ba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'fa37e27b7aee89d38e724961322fdc7e') in 0.029314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Forest_Ground_38/Forest_Ground_38.mat
+  artifactKey: Guid(5be5068aad440bd4dadad713f1c8b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Forest_Ground_38/Forest_Ground_38.mat using Guid(5be5068aad440bd4dadad713f1c8b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '0a9eefc167e9f8b7c5df2f1c14c0ae7f') in 0.026763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Lava_And_Pavement_2/Lava_And_Pavement_2.mat
+  artifactKey: Guid(12bd869fddb94c94e83a827a81ac1167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Lava_And_Pavement_2/Lava_And_Pavement_2.mat using Guid(12bd869fddb94c94e83a827a81ac1167) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'fbf9796c2c1b34ec0c023310a47ad920') in 0.028722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Rippled_Sand_2/Rippled_Sand_2.mat
+  artifactKey: Guid(6440a4fabadf0b2418799a6034f7c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Rippled_Sand_2/Rippled_Sand_2.mat using Guid(6440a4fabadf0b2418799a6034f7c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '4c9cc3f320afef0e9e603bc2f6f17d10') in 0.027571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17.mat
+  artifactKey: Guid(d7a14fdd33ecb1e4a932c17c599120fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17.mat using Guid(d7a14fdd33ecb1e4a932c17c599120fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '3e1f771b9a613ffd72caa645210bd301') in 0.025797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Dirty_Snow_2/Dirty_Snow_2.mat
+  artifactKey: Guid(57956b4ebc027244794d51e4e2bac953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Dirty_Snow_2/Dirty_Snow_2.mat using Guid(57956b4ebc027244794d51e4e2bac953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6921dd79a6bd33e9e21cc071f5b52a17') in 0.028057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Grass_37/Grass_37.mat
+  artifactKey: Guid(38efa2495a27ae64cb42617019e33b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Grass_37/Grass_37.mat using Guid(38efa2495a27ae64cb42617019e33b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '4a5e86d874182ade2507e564c92181a2') in 0.027384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Underwater_Rock_Surface_3/Underwater_Rock_Surface_3.mat
+  artifactKey: Guid(c4808a442c4429146b8036a0ed4b9f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Underwater_Rock_Surface_3/Underwater_Rock_Surface_3.mat using Guid(c4808a442c4429146b8036a0ed4b9f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ce57b374a8b8beb3c7c1bb62aaf28191') in 0.026095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Pavement_7/Pavement_7.mat
+  artifactKey: Guid(2bbbb4850d795e34e85ef1590a144f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Pavement_7/Pavement_7.mat using Guid(2bbbb4850d795e34e85ef1590a144f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'eca8787dc45b2f8a751a7a5160232b97') in 0.027449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Water_6/Water_6.mat
+  artifactKey: Guid(7d53f22039b5eba47b74dccdc78bc951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Water_6/Water_6.mat using Guid(7d53f22039b5eba47b74dccdc78bc951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '260ad87f07331b5e85a0179ae6c4324b') in 0.026721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Wood_Wall_1/Wood_Wall_1.mat
+  artifactKey: Guid(eaf17b849c043774a9a195245f3e635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Wood_Wall_1/Wood_Wall_1.mat using Guid(eaf17b849c043774a9a195245f3e635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2a1197310b01219672235af5f8900905') in 0.026249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Muddy_Cracked_Sand_6/Muddy_Cracked_Sand_6.mat
+  artifactKey: Guid(1da29c6f14bc72446a92a803e006949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Muddy_Cracked_Sand_6/Muddy_Cracked_Sand_6.mat using Guid(1da29c6f14bc72446a92a803e006949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '0ce9a79a125070069ae08b0b33a25240') in 0.026769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Rocky_Dirt_2/Rocky_Dirt_2.mat
+  artifactKey: Guid(0bcbf714cf65ced47a90830663d15160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Rocky_Dirt_2/Rocky_Dirt_2.mat using Guid(0bcbf714cf65ced47a90830663d15160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '9b3658414825a01b29c58b0118455b39') in 0.026308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Crystal_Surface_1/Crystal_Surface_1.mat
+  artifactKey: Guid(d5164eea67caab449a9efd062aa6dc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Crystal_Surface_1/Crystal_Surface_1.mat using Guid(d5164eea67caab449a9efd062aa6dc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '710dac08965952504078cd9d763c6f4f') in 0.026265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Marble_Surface_20/Marble_Surface_20.mat
+  artifactKey: Guid(474f0e87721a52b4b9616d6d748ac58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Marble_Surface_20/Marble_Surface_20.mat using Guid(474f0e87721a52b4b9616d6d748ac58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2381393ce27d8f4c2b4ed02287b9a716') in 0.029120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 36.724334 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5.mat
+  artifactKey: Guid(2cd2a7435494f914f888b66f850aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5.mat using Guid(2cd2a7435494f914f888b66f850aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '16889073eb7328e07ee0c930d388bd07') in 0.021529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21.mat
+  artifactKey: Guid(dd9c2e50030efdf48b63f31a0ce18382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21.mat using Guid(dd9c2e50030efdf48b63f31a0ce18382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'bb0f88774c62f7e839e0c850770054b7') in 0.025341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12.mat
+  artifactKey: Guid(80cbb1b9b7b6476408f9f3dbcdad2a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12.mat using Guid(80cbb1b9b7b6476408f9f3dbcdad2a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'aaba06c617dac175b6d3ff39ea35a268') in 0.023846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Coal_Surface_2/Coal_Surface_2.mat
+  artifactKey: Guid(47d234b6593cc064dbfdbf19b8edfa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Coal_Surface_2/Coal_Surface_2.mat using Guid(47d234b6593cc064dbfdbf19b8edfa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '1a39380e3c50d05aaf34267cb0fc1310') in 0.022543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18.mat
+  artifactKey: Guid(5c8bbf3ba70fda14faf9a03946917675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18.mat using Guid(5c8bbf3ba70fda14faf9a03946917675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ac197ef7071c7febde8168157d599d01') in 0.020748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1.mat
+  artifactKey: Guid(e36e7f3cf33b7064487e652e84661d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1.mat using Guid(e36e7f3cf33b7064487e652e84661d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '094e8f63585da9f11bdea3c684e61d74') in 0.021017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 24.283314 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b9f84b7ab09c3a14697e21f08e66df9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(b9f84b7ab09c3a14697e21f08e66df9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '67707496f84a0258594563881bb27f3d') in 0.010134 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(201da4c4cc4ce3544a36e34e43789792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/SceneManager.cs using Guid(201da4c4cc4ce3544a36e34e43789792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '061ea81d562f44210b94967c8ed524a7') in 0.010174 seconds
+  Time since last request: 29.098274 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Albedo.png
+  artifactKey: Guid(01a7a6d7e87757a4ba763cafd16ae5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Albedo.png using Guid(01a7a6d7e87757a4ba763cafd16ae5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ef16d661bdc9e30abdcee8a3b109eb41') in 0.026241 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Mask.png
+  artifactKey: Guid(fc1580178a978984ba59aa4cf13bad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Mask.png using Guid(fc1580178a978984ba59aa4cf13bad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e84101d9ca15524067c3eef154e4caee') in 0.023413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_AO.png
+  artifactKey: Guid(1576fd0f94bbee94887f8309eef3cddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_AO.png using Guid(1576fd0f94bbee94887f8309eef3cddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'f5fc871b0567bd2d05692be353cefd64') in 0.015809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Height.png
+  artifactKey: Guid(a7818d0682ac9a845977b628dab68616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Height.png using Guid(a7818d0682ac9a845977b628dab68616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5730d18f7f5848ad9447916161f3fc78') in 0.018361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Height.png
+  artifactKey: Guid(a08530b0e89974e47b3d208d5a63c273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Height.png using Guid(a08530b0e89974e47b3d208d5a63c273) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'fdba633f4120775830d1016cd64893a3') in 0.016858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Mask.png
+  artifactKey: Guid(bf25b414ce33bb04c94c60b170949db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Mask.png using Guid(bf25b414ce33bb04c94c60b170949db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8f7ba759c6dee2de12fc16ca06882bf3') in 0.015922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Albedo.png
+  artifactKey: Guid(55c172f0b2491e34693efd46af1becfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Albedo.png using Guid(55c172f0b2491e34693efd46af1becfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6b2b3f38178a4252263dd29ed864a476') in 0.018018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Normal.png
+  artifactKey: Guid(eb5a3715ac775bd43ab7679f47936d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Normal.png using Guid(eb5a3715ac775bd43ab7679f47936d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e73c5e6c564d33961662ba6dbd78a6e2') in 0.020296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Normal.png
+  artifactKey: Guid(c8055f3dea7b7734b8c42dc54beac671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Normal.png using Guid(c8055f3dea7b7734b8c42dc54beac671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2b1e45edccdbf3113b4c2f34deefaf62') in 0.020105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Roughness.png
+  artifactKey: Guid(a42b23effd6eb94418ce1aa65b121cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Roughness.png using Guid(a42b23effd6eb94418ce1aa65b121cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'd295eba1498c7a6a33ca26662f316acc') in 0.019550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Metallic.png
+  artifactKey: Guid(a8a4f41a83418574b9f003a10bd3699e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Metallic.png using Guid(a8a4f41a83418574b9f003a10bd3699e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b072538d7725630ea6a32f05d6a7f072') in 0.020134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Mask.png
+  artifactKey: Guid(2635a192ce2b5db4eb6f63800ad4407b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Mask.png using Guid(2635a192ce2b5db4eb6f63800ad4407b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '86ebc7cb89165601f1ad831eb0577cd1') in 0.025318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Height.png
+  artifactKey: Guid(ed2d5f4ad17393249bb13f021bc8429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Height.png using Guid(ed2d5f4ad17393249bb13f021bc8429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'f030c46ecc370daa51272f5c73bdde40') in 0.020567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Mask.png
+  artifactKey: Guid(c2db7c57263fb88488c7aace2482fb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Mask.png using Guid(c2db7c57263fb88488c7aace2482fb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ff6ff10bfef41af05143849fd46bbf45') in 0.020437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Mask.png
+  artifactKey: Guid(548a78cf91393474bab8d8ea5c0be572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Mask.png using Guid(548a78cf91393474bab8d8ea5c0be572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6d3642a14c7b58d7994cbdffadc66eaf') in 0.018350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Normal.png
+  artifactKey: Guid(f7a7f11868314784a8b3a1a6729c081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Normal.png using Guid(f7a7f11868314784a8b3a1a6729c081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '7e15981e896d38e7be9b758e2106424a') in 0.019646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Metallic.png
+  artifactKey: Guid(f8be9c5206ac56244af3d16fb24f2472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Metallic.png using Guid(f8be9c5206ac56244af3d16fb24f2472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5e7e8cdd5ef5594ad00e890379e6e189') in 0.013742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Metallic.png
+  artifactKey: Guid(a20930180c367274e9d03124f98c53b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Metallic.png using Guid(a20930180c367274e9d03124f98c53b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b546d69efdce1b046abefc73a3923efe') in 0.021090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Height.png
+  artifactKey: Guid(7c93a803718bfff479edf0691613bfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Height.png using Guid(7c93a803718bfff479edf0691613bfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'af88be3b98bace3128a29fd15ed48a9b') in 0.024858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Normal.png
+  artifactKey: Guid(2581e11fabfcf7a45a50561b4b31cee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Normal.png using Guid(2581e11fabfcf7a45a50561b4b31cee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'd898a0d68ee5c09031bd8930c936b04d') in 0.024529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Metallic.png
+  artifactKey: Guid(9ef24bd81a21bae4e811ce577844b7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Metallic.png using Guid(9ef24bd81a21bae4e811ce577844b7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '351a12f840105bf332990a922b414b81') in 0.020402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Roughness.png
+  artifactKey: Guid(557c7bb30c8753a44a95a6804a68c337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Roughness.png using Guid(557c7bb30c8753a44a95a6804a68c337) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '04f36c01a5c2c7922fd6ac3572b84e18') in 0.042227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Roughness.png
+  artifactKey: Guid(ab74000d038185f4e8166bb517673d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Roughness.png using Guid(ab74000d038185f4e8166bb517673d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '7a56b0f4a9d21ac3ea439c03ec3fb0f9') in 0.018819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Albedo.png
+  artifactKey: Guid(8977e4558f22403448f7b2e290afb17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_Albedo.png using Guid(8977e4558f22403448f7b2e290afb17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'bf5aacde3a4dbc63d6f0f83bc18422b6') in 0.013970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Metallic.png
+  artifactKey: Guid(f408b91d2aaa5db43bb4b6e0d046cc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Metallic.png using Guid(f408b91d2aaa5db43bb4b6e0d046cc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '619ad2c85dc418c11ee208a04c28faa1') in 0.008036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Roughness.png
+  artifactKey: Guid(4834b16c67aca5e418ef4de408b0593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_Roughness.png using Guid(4834b16c67aca5e418ef4de408b0593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'c4a26d5e77f03254b6154302ecc9f5f8') in 0.013221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_AO.png
+  artifactKey: Guid(74e5c22098615bf4ba07542ade29f214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_AO.png using Guid(74e5c22098615bf4ba07542ade29f214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '912dd1e1d6176f9a67f9af08cac1b73d') in 0.014836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Albedo.png
+  artifactKey: Guid(d7542ffb4f79b024f9d0cb9ab3999d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Albedo.png using Guid(d7542ffb4f79b024f9d0cb9ab3999d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ca0ed52a8efef4176a22a37aa9547b24') in 0.015486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_AO.png
+  artifactKey: Guid(92dfd06644590d649a36e64be20ca644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_AO.png using Guid(92dfd06644590d649a36e64be20ca644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '351f9c3204f9b30ef4f348d91737e4bd') in 0.015337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Roughness.png
+  artifactKey: Guid(d5f98f40af2cafb4e89cb3dce859a82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Brick_Wall_18/Brick_Wall_18_Roughness.png using Guid(d5f98f40af2cafb4e89cb3dce859a82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '1d6a417409686e5c78f0592c994e3d0a') in 0.016427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_AO.png
+  artifactKey: Guid(8423542a827777a468d7832e5df93a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Ancient_Cobblestone_5/Ancient_Cobblestone_5_AO.png using Guid(8423542a827777a468d7832e5df93a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e235f9fe3f65902bac5845190606eb53') in 0.014829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Normal.png
+  artifactKey: Guid(011c2ab10dfe78641a7fb092bd005be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Arctic_Forest_Ground_12/Arctic_Forest_Ground_12_Normal.png using Guid(011c2ab10dfe78641a7fb092bd005be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6f67b218278476c8c02871799b110efd') in 0.015624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_AO.png
+  artifactKey: Guid(6784602c7564c0347a2d5429f0b479b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Bones_Debris_1/Bones_Debris_1_AO.png using Guid(6784602c7564c0347a2d5429f0b479b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8ea9d65b326e0ba29458241f36a620de') in 0.014072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Height.png
+  artifactKey: Guid(e2f3b079588a2484d82da4cb5ecbbcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Height.png using Guid(e2f3b079588a2484d82da4cb5ecbbcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '3d8efe659cd4fba67a5001b2fc0fe765') in 0.014440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Albedo.png
+  artifactKey: Guid(6fd39161d2c1b304083bc22f562fe5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21_Albedo.png using Guid(6fd39161d2c1b304083bc22f562fe5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6a30db364a3da3131d151ca93329b33e') in 0.013448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.851877 seconds.
+  path: Assets/Models/NewBrush.brush
+  artifactKey: Guid(a587c39e2803cb548bd8d3fd1cde68b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NewBrush.brush using Guid(a587c39e2803cb548bd8d3fd1cde68b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '9015b5213d65a135ef39d7feb9147b1b') in 0.018737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 132.792687 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures
+  artifactKey: Guid(90d18ef464232c34bbd0adec4bec8bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures using Guid(90d18ef464232c34bbd0adec4bec8bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2e32f0ff6b18afde4689a5aa460793fe') in 0.000718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.589473 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures
+  artifactKey: Guid(5bcebe60b57a33f4c898825cef511cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures using Guid(5bcebe60b57a33f4c898825cef511cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '963f6217b4fac0faa0354b5e534ccf85') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.065994 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4
+  artifactKey: Guid(27281b39570e4a44e9168d4ef9dbe8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4 using Guid(27281b39570e4a44e9168d4ef9dbe8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '031bfd985f4c6dd679b0950463d082b3') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.174779 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4.terrainlayer
+  artifactKey: Guid(5c2e2d0606efa2b4f90018fc3431f33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4.terrainlayer using Guid(5c2e2d0606efa2b4f90018fc3431f33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '67d0dd81887026546e84b680e25f8cfd') in 0.051238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Height.png
+  artifactKey: Guid(de0d10141886b464b817ca4fd1cf3641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Height.png using Guid(de0d10141886b464b817ca4fd1cf3641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'c5caa848106459462f75fc35960ad4ce') in 0.016686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Metallic.png
+  artifactKey: Guid(b438812bdc1c7514ead62ba967019caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Metallic.png using Guid(b438812bdc1c7514ead62ba967019caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '777de9919d75308409c38a9351b44a43') in 0.032520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Roughness.png
+  artifactKey: Guid(fd78c8187043b714c9b371fc1f823b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Roughness.png using Guid(fd78c8187043b714c9b371fc1f823b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '45fb2d3998bd0213cc2054ba2c2130ed') in 0.035525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Mask.png
+  artifactKey: Guid(e8dc389b73aea4d43b36ecad14739d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Mask.png using Guid(e8dc389b73aea4d43b36ecad14739d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'cdc5d90ef2d2f8b3e40534ae9d48fa86') in 0.033023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Normal.png
+  artifactKey: Guid(6d8f866b5b42df34baa47baa59a284b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Normal.png using Guid(6d8f866b5b42df34baa47baa59a284b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '365d2f6cb4d2f3732ccbf1824bdfa5c0') in 0.032697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_AO.png
+  artifactKey: Guid(ebb95fbee2326f149a07c014d53e26a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_AO.png using Guid(ebb95fbee2326f149a07c014d53e26a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a40fdabac62814906f96cf59ae5f95e9') in 0.031707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Albedo.png
+  artifactKey: Guid(a2a887740e2d1c7499a07ae6becfa69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Cracked_Ice_4/Cracked_Ice_4_Albedo.png using Guid(a2a887740e2d1c7499a07ae6becfa69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '911acc672c779fc8e108f0e97c34c2bd') in 0.032287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.617965 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17
+  artifactKey: Guid(f7c119dfa8b93534ebabd972445862a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17 using Guid(f7c119dfa8b93534ebabd972445862a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'f34b73dc7cb32d0cfc2fc6d7255499d8') in 0.000650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058072 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17.terrainlayer
+  artifactKey: Guid(d25e72b90da77a44c875bcadabdf8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17.terrainlayer using Guid(d25e72b90da77a44c875bcadabdf8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '32fcabd93ac7a5601287c8c3aea895a5') in 0.047763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Normal.png
+  artifactKey: Guid(74514e71d38133c4fb49596c466557e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Normal.png using Guid(74514e71d38133c4fb49596c466557e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '39fcd0469c817ff4ddeacb05f2f87d27') in 0.042673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Metallic.png
+  artifactKey: Guid(78787f13c85c7d9429174cbbddb75e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Metallic.png using Guid(78787f13c85c7d9429174cbbddb75e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '0f4c71e2c2fc8278297d782f0f08802d') in 0.009392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Mask.png
+  artifactKey: Guid(4090728ebcdce974f872492ffb231a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Mask.png using Guid(4090728ebcdce974f872492ffb231a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '141fd30b74f0d509d61c100fa3fd86f5') in 0.037485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Height.png
+  artifactKey: Guid(34a681fbeba2d34498e1c050e9aa14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Height.png using Guid(34a681fbeba2d34498e1c050e9aa14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '0f101ee854264045057dd4caa24b020f') in 0.035283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Albedo.png
+  artifactKey: Guid(9ac240616742a354b91e979eb7618c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Albedo.png using Guid(9ac240616742a354b91e979eb7618c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '242f5cb1ab1e67b59b8991d4d4a31097') in 0.036125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Roughness.png
+  artifactKey: Guid(a2ef9a01c24def348b1783f0b88b004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Roughness.png using Guid(a2ef9a01c24def348b1783f0b88b004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6ffec0f5693aac268c7074711956dc5f') in 0.033600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_AO.png
+  artifactKey: Guid(b064be766ba767d4cb50d792f636e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Buffs/Free Stylized Textures/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_AO.png using Guid(b064be766ba767d4cb50d792f636e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'de4132aaa5597576bc02f0c24e3c8551') in 0.012695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.055 seconds
+Domain Reload Profiling: 1489ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1055ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (428.1 KB). Loaded Objects now: 3618.
+Memory consumption went from 122.6 MB to 122.1 MB.
+Total: 2.773600 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.205500 ms MarkObjects: 2.046100 ms  DeleteObjects: 0.259300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.826579 seconds.
+  path: Assets/Models/Артефакт-1.blend
+  artifactKey: Guid(d1378949b40a3854b9ade2e863cc1101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Артефакт-1.blend using Guid(d1378949b40a3854b9ade2e863cc1101) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '08bff30b5bbbdd21edb10d5215134d60') in 0.150199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 61.433057 seconds.
+  path: Assets/Models/SSS rjyneh.blend
+  artifactKey: Guid(685b13b3a0415b8428d24c1e8c3dbcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SSS rjyneh.blend using Guid(685b13b3a0415b8428d24c1e8c3dbcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '4f844219cb27551253a592fe7bca049a') in 0.049872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 17.566345 seconds.
+  path: Assets/Models/BlackHoleModel.fbx
+  artifactKey: Guid(a81bb624fe1cc1a40b6c6eec6db5e5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BlackHoleModel.fbx using Guid(a81bb624fe1cc1a40b6c6eec6db5e5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '0599e6c890a5f6564da866d003d29b06') in 0.039250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
