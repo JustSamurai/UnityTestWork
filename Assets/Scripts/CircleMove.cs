@@ -38,7 +38,7 @@ public class CircleMove : MonoBehaviour
         positionX = target.position.x + Mathf.Cos(angle) * radius;
         positionY = target.position.x + Mathf.Cos(angle) * radius;
         positionZ = target.position.z + Mathf.Sin(angle) * radius;
-
+        
         if (circle == Circle.HorizontalAndY)
         {
             transform.position = new Vector3(positionX, positionY, positionZ);

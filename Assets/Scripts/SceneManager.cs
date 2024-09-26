@@ -19,7 +19,7 @@ public class SceneManager : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(TimeScore());
+        //StartCoroutine(TimeScore());
         
         rotateCamera = GetComponent<RotateCamera>();
     }
@@ -31,7 +31,6 @@ public class SceneManager : MonoBehaviour
             {
                 if (GeneralStatic.count >= 60)
                 {
-
                     camera.transform.LookAt(target.transform);
 
                     camera.transform.position = Vector3.MoveTowards(camera.transform.position,
@@ -50,25 +49,25 @@ public class SceneManager : MonoBehaviour
         {
             GeneralStatic.count = 0;
 
-            if(GeneralStatic.count == 0 && isTimerOn == false)
-                StartCoroutine(TimeScore());
+            //if(GeneralStatic.count == 0 && isTimerOn == false)
+            //    StartCoroutine(TimeScore());
         }
     }
-    IEnumerator TimeScore()
-    {
-        for (GeneralStatic.count = 0; GeneralStatic.count < 60; ++GeneralStatic.count)
-        {
-            isTimerOn = true;
+    //IEnumerator TimeScore()
+    //{
+    //    for (GeneralStatic.count = 0; GeneralStatic.count < 60; ++GeneralStatic.count)
+    //    {
+    //        isTimerOn = true;
 
-            if (GeneralStatic.count == 59)
-                isTimerOn = false;
+    //        if (GeneralStatic.count == 59)
+    //            isTimerOn = false;
 
-            yield return new WaitForSeconds(1);
+    //        yield return new WaitForSeconds(1);
 
-            Debug.Log(string.Format("{0} seconds |" +
-                " Scene is {1} |" +
-                " Camera in start point {2} |" +
-                " Timer is {3}", GeneralStatic.count, GeneralStatic.isUsed, GeneralStatic.isPoint, isTimerOn));
-        }
-    }
+    //        Debug.Log(string.Format("{0} seconds |" +
+    //            " Scene is {1} |" +
+    //            " Camera in start point {2} |" +
+    //            " Timer is {3}", GeneralStatic.count, GeneralStatic.isUsed, GeneralStatic.isPoint, isTimerOn));
+    //    }
+    //}
 }
