@@ -10,7 +10,7 @@ public class GeneralStatic : MonoBehaviour
 
     public static bool isCameraPoint = false;
 
-    public static bool isGamePaused = false;
+    public static bool isInAction = false;
 
     public static int count = 0;
 }

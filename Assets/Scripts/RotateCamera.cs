@@ -24,20 +24,20 @@ public class RotateCamera : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            if (!GeneralStatic.isGamePaused)
-            {
-                GeneralStatic.isUsed = true;
 
-                GeneralStatic.isPoint = false;
+            GeneralStatic.isUsed = true;
 
-                GeneralStatic.isCameraPoint = false;
+            GeneralStatic.isPoint = false;
 
-                camera.transform.RotateAround(target.transform.position,
-                    camera.transform.up, -Input.GetAxis("Mouse X") * speed);
+            GeneralStatic.isCameraPoint = false;
 
-                camera.transform.RotateAround(target.transform.position,
-                    camera.transform.right, -Input.GetAxis("Mouse Y") * speed);
-            }
+            GeneralStatic.isInAction = false;
+
+            camera.transform.RotateAround(target.transform.position,
+                camera.transform.up, -Input.GetAxis("Mouse X") * speed);
+
+            camera.transform.RotateAround(target.transform.position,
+                camera.transform.right, -Input.GetAxis("Mouse Y") * speed);
         }
         else
         {

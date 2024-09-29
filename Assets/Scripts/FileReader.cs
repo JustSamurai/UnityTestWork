@@ -1,22 +1,39 @@
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using TMPro;
 using UnityEngine;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
+
 public class FileReader : MonoBehaviour
 {
-    string Path = "C:\\Users\\User\\Desktop\\TestWork";
-    // Start is called before the first frame update
-    void Start()
-    {
-        ConvertToDescription<Description>(Path);
-    }
+    public TextMeshProUGUI textMeshPro;
 
-    // Update is called once per frame
-    public static T ConvertToDescription<T>(string path) 
+    public void LoadJson() 
     {
-        T t = new();
-        t = JsonConvert.DeserializeObject<T>(path);
-        return ;
+        try
+        {
+            using (StreamReader sr = new StreamReader(@"C:\Users\sevak\Desktop\UnityTestWork-main\biopunk.json"))
+            {
+                string json = sr.ReadToEnd();
+                Debug.Log(json);
+                JObject data = JsonConvert.DeserializeObject<JObject>(json);
+                Debug.Log(data);
+                string text = "";
+                foreach (var property in data.Properties())
+                {
+                    text = $"<b>{property.Name}</b>: {property.Value}\n";
+                    Debug.Log("«¿œ»—¿ÕŒ!!!");
+                }
+                textMeshPro.text = text;
+                Debug.Log("“≈ —“ ¬€¬≈ƒ≈Õ!");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError(ex.Message);
+        }
     }
 }

@@ -1,22 +1,27 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class MoveTo : MonoBehaviour
 {
     RotateCamera rotateCamera;
+    FileReader reader;
 
     public GameObject[] cameraPoints;
+    public GameObject uiPanel;
 
     private float speed = 0.5f;
-
     private float timeCount = 0.5f;
 
     private void Start()
     {
         rotateCamera = GetComponent<RotateCamera>();
+        reader = new FileReader();
     }
+
     private void Update()
     {
         transform.LookAt(rotateCamera.target.transform);
@@ -24,56 +29,45 @@ public class MoveTo : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
-
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit))
             {
-                Debug.Log($"{hit.collider.name} Detected",
-                    hit.collider.gameObject);
+                Debug.Log($"{hit.collider.name} Detected", hit.collider.gameObject);
 
-                if (hit.collider.gameObject.name == "Edge Up" && GeneralStatic.isCameraPoint == false)
+                string edgeName = hit.collider.gameObject.name;
+                int pointIndex = GetPointIndex(edgeName);
+
+                if (pointIndex != -1 && !GeneralStatic.isCameraPoint)
                 {
-                    MoveToPoint(cameraPoints[0]);
-                }
-                if (hit.collider.gameObject.name == "Edge Down" && GeneralStatic.isCameraPoint == false)
-                {
-                    MoveToPoint(cameraPoints[1]);
-                }
-                if (hit.collider.gameObject.name == "Edge Left" && GeneralStatic.isCameraPoint == false)
-                {
-                    MoveToPoint(cameraPoints[2]);
-                }
-                if (hit.collider.gameObject.name == "Edge Right" && GeneralStatic.isCameraPoint == false)
-                {
-                    MoveToPoint(cameraPoints[3]);
-                }
-                if (hit.collider.gameObject.name == "Edge Back" && GeneralStatic.isCameraPoint == false)
-                {
-                    MoveToPoint(cameraPoints[4]);
-                }
-                if (hit.collider.gameObject.name == "Edge Front" && GeneralStatic.isCameraPoint == false)
-                {
-                    MoveToPoint(cameraPoints[5]);
+                    MoveToPoint(cameraPoints[pointIndex]);
+                    ShowUIPanel();
                 }
             }
         }
-
     }
-
-    public void MoveToPoint(GameObject toPoint) 
+    private void ShowUIPanel()
+    {
+        uiPanel.SetActive(true);
+        reader.LoadJson();
+    }
+    public void MoveToPoint(GameObject toPoint)
     {
         transform.position = toPoint.transform.position;
-
-        if (transform.position == toPoint.transform.position)
-        {
-            GeneralStatic.isCameraPoint = true;
-
-            GeneralStatic.isGamePaused = true;
-            Debug.Log("Пауза ---> " + GeneralStatic.isGamePaused + " <--");
-            Debug.Log("Камера в точке ---> " + GeneralStatic.isCameraPoint + " <--");
-        }
+        GeneralStatic.isCameraPoint = true;
     }
 
-
+    private int GetPointIndex(string edgeName)
+    {
+        switch (edgeName)
+        {
+            case "Edge Up": return 0;
+            case "Edge Down": return 1;
+            case "Edge Left": return 2;
+            case "Edge Right": return 3;
+            case "Edge Back": return 4;
+            case "Edge Front": return 5;
+            default: return -1;
+        }
+    }
 }

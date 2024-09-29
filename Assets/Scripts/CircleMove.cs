@@ -12,22 +12,25 @@ public class CircleMove : MonoBehaviour
 
     public Circle circle = Circle.HorizontalAndY;
 
+    
+
     [SerializeField]
     Transform target;
 
     [SerializeField]
-    float radius = 10f, angularSpeed = 0.5f;
-
+    float radius = 5f, angularSpeed = 0.5f;
     float positionX, positionY, positionZ, angle = 0f;
 
+    Timer timer;
+    private void Start()
+    {
+        timer = new Timer();
+    }
     void FixedUpdate()
     {
-        if(GeneralStatic.isPoint = true && GeneralStatic.count >= 60)
+        if(GeneralStatic.isPoint == true && GeneralStatic.isInAction == true)
         {
-            if (!GeneralStatic.isGamePaused)
-            {
-                ALLMOVES();
-            }
+            ALLMOVES();
         }
     }
 

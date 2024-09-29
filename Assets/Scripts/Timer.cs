@@ -5,25 +5,29 @@ using UnityEngine;
 public class Timer : MonoBehaviour
 {
     public int secondsDelay = 60;
+    private int i = 0;
+
     private void OnEnable()
     {
-        StartCoroutine(TimeScore());
+        StartCoroutine(TimerCoroutine());
     }
 
     private void OnDisable()
     {
-        StopCoroutine(TimeScore());
+        StopCoroutine(TimerCoroutine());
     }
 
-    IEnumerator TimeScore()
+    IEnumerator TimerCoroutine()
     {
-        for (int i = 0; i < secondsDelay; ++i)
+        for (i = 0; i < secondsDelay; i++)
         {
-            yield return new WaitForSeconds(1);
-
             Debug.Log(string.Format("{0} seconds |" +
                 " Scene is {1} |" +
-                " Camera in start point {2} |", GeneralStatic.count, GeneralStatic.isUsed, GeneralStatic.isPoint));
+                " Camera in start point {2} |" +
+                " Action is {3} |", i, GeneralStatic.isUsed, GeneralStatic.isPoint, GeneralStatic.isInAction));
+            yield return new WaitForSeconds(1);
         }
+        GeneralStatic.isInAction = true;
     }
+
 }
