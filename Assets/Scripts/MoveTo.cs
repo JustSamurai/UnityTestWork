@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 public class MoveTo : MonoBehaviour
 {
     RotateCamera rotateCamera;
-    FileReader reader;
+    public FileReader reader;
 
     public GameObject[] cameraPoints;
     public GameObject uiPanel;
@@ -19,7 +19,6 @@ public class MoveTo : MonoBehaviour
     private void Start()
     {
         rotateCamera = GetComponent<RotateCamera>();
-        reader = new FileReader();
     }
 
     private void Update()

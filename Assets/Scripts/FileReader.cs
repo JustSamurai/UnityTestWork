@@ -9,29 +9,49 @@ using UnityEngine;
 
 public class FileReader : MonoBehaviour
 {
-    public TextMeshProUGUI textMeshPro;
+    [SerializeField]    
+    TextMeshProUGUI TextOutput;
 
-    public void LoadJson() 
+    Description description;
+    private void Start()
+    {
+        if (TextOutput == null)
+        {
+            TextOutput = GetComponent<TextMeshProUGUI>();
+        }
+        Debug.Log("TextOutput initialized: " + (TextOutput != null));
+    }
+    public void LoadJson()
     {
         try
         {
-            using (StreamReader sr = new StreamReader(@"C:\Users\sevak\Desktop\UnityTestWork-main\biopunk.json"))
+            var path = Path.Combine(Application.dataPath, "description.json");
+            Debug.Log(path);
+
+            var jsonText = File.ReadAllText(path);
+            Debug.Log(jsonText);
+
+            var jsonObject = JObject.Parse(jsonText);
+            Debug.Log(jsonObject);
+
+            string name = (string)jsonObject["name"];
+            string birthday = (string)jsonObject["birthday"];
+            string description = (string)jsonObject["description"];
+            JArray skills = (JArray)jsonObject["skills"];
+            string skillsText = string.Join(", ", skills.ToObject<List<string>>());
+
+            Debug.Log("Before assigning text to TextOutput");
+
+            if (TextOutput != null)
             {
-                string json = sr.ReadToEnd();
-                Debug.Log(json);
-                JObject data = JsonConvert.DeserializeObject<JObject>(json);
-                Debug.Log(data);
-                string text = "";
-                foreach (var property in data.Properties())
-                {
-                    text = $"<b>{property.Name}</b>: {property.Value}\n";
-                    Debug.Log("ЗАПИСАНО!!!");
-                }
-                textMeshPro.text = text;
-                Debug.Log("ТЕКСТ ВЫВЕДЕН!");
+                TextOutput.text = $"Имя: {name}\nДата рождения: {birthday}\nНавыки: {skillsText}\nОписание: {description}";
+            }
+            else
+            {
+                Debug.LogError("TextOutput is null");
             }
         }
-        catch (Exception ex)
+        catch (System.Exception ex)
         {
             Debug.LogError(ex.Message);
         }

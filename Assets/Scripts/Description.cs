@@ -1,19 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class Description 
+public class Description : MonoBehaviour
 {
     public string name;
+    public DateTime birtday;
+    public string[] skills;
     public string description;
-
-    //public Description(string name, string description)
-    //{
-    //    this.name = name;
-    //    this.description = description;
-    //}
-
-    
-    
 }
